@@ -14,7 +14,9 @@
     <body>
         <h1>Forgot Password</h1>
         Please enter your email address to retrieve your password.<br><br>
-        Email Address: <input type="email" required/><br>
-        <input type="submit" value="Submit"/>
+        <form method="post">    
+            Email Address: <input type="email" required/><br>
+            <input type="submit" value="Submit"/>
+        </form>
     </body>
 </html>

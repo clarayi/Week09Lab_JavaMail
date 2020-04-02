@@ -17,7 +17,11 @@ import models.User;
  */
 public class AccountService 
 {
-
+    public boolean forgotPassword(String username, String path)
+    {
+        return false;
+    }
+    
     public User login(String username, String password, String path) 
     {
         try 
